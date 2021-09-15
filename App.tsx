@@ -1,10 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, View, Text, SafeAreaView } from 'react-native';
+import { StyleSheet, Text, View, SafeAreaView } from 'react-native';
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 import Products from './Products';
 
-// Initialize Apollo Client
 const client = new ApolloClient({
   uri: 'https://demo.saleor.io/graphql/',
   cache: new InMemoryCache(),
@@ -18,7 +17,7 @@ export default function App() {
         <View style={styles.header}>
           <SafeAreaView style={styles.container}>
             <Text style={{ color: '#fff', fontSize: 18 }}>
-              React Native Demo App
+              React Native Demo Home Page
             </Text>
           </SafeAreaView>
         </View>
