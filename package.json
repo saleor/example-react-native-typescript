@@ -11,7 +11,7 @@
     "@apollo/client": "^3.5.10",
     "expo": "~44.0.6",
     "expo-status-bar": "~1.2.0",
-    "graphql": "^16.3.0",
+    "graphql": "^16.8.1",
     "react": "18.0.0",
     "react-dom": "18.0.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-41.0.0.tar.gz",
